@@ -1,0 +1,47 @@
+{
+  "status": "Proposed eval adapter protocol; implementation planned for KT3",
+  "tools": {
+    "search_documents": {
+      "arguments": {
+        "query": "string",
+        "filters": "canonical object: format/source_type/doc_type/filename strings; uploaded_at/content_date ranges with gte and/or lt ISO dates; optional content_date.event; see queries/README.md",
+        "order_by": "optional string",
+        "limit": "integer <=5"
+      },
+      "authorization": "owner is injected by server from authenticated session; filter before scoring and snippets",
+      "returns": {
+        "results": "ordered list of doc_id, title, snippet, source, uploaded_at",
+        "has_more": "boolean"
+      },
+      "errors": [
+        "timeout",
+        "unavailable",
+        "invalid_arguments"
+      ]
+    },
+    "get_document": {
+      "arguments": {
+        "doc_id": "string"
+      },
+      "authorization": "same server-side owner check",
+      "returns": "saved source and content",
+      "errors": [
+        "not_found_or_forbidden",
+        "unavailable"
+      ]
+    }
+  },
+  "evaluation": "match required calls by name and argument subset, not literal JSON or exact number; equivalent adapter calls allowed; inspect all calls for forbidden access",
+  "trace": {
+    "origin": "trusted adapter at tool boundary; never model self-report",
+    "required_per_call": [
+      "name",
+      "arguments",
+      "status",
+      "read_doc_ids"
+    ],
+    "read_doc_ids": "all accessed documents, including internal candidate scoring, snippets and errors",
+    "status": "ok or error",
+    "native_mode": "only final results evaluated; parse/calls N/A; internal ACL not certified"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "id": "junkie_eval_v3",
+  "schema_version": 3,
+  "now": "2026-10-24T12:00:00+03:00",
+  "timezone": "Europe/Moscow",
+  "documents_manifest": "documents.jsonl",
+  "manifest_sha256": "cc2153ac5a173f29b05c5dda495f06666a755d35844d7ab83ac22cddf0505db7",
+  "max_results": 5,
+  "initial_state": "fresh_session",
+  "network": "disabled; use saved URL snapshots",
+  "authenticated_user_source": "case.user_id supplied by harness; never tool arguments",
+  "tool_contract": "fixtures/tool_contract.json",
+  "fixtures": {
+    "base": {},
+    "two_nonempty_users": {
+      "additional_documents": [
+        {
+          "doc_id": "b_001",
+          "path": "fixtures/user_b/apple.txt",
+          "owner_id": "user_b",
+          "uploaded_at": "2026-10-20",
+          "format": "txt",
+          "source_type": "file",
+          "searchable": true,
+          "sha256": "bc4164bbf4241b7751bae79088b0fbc72cad7a7111454b7025e1e88fffb6aa06"
+        },
+        {
+          "doc_id": "b_002",
+          "path": "fixtures/user_b/private_notes.md",
+          "owner_id": "user_b",
+          "uploaded_at": "2026-10-20",
+          "format": "md",
+          "source_type": "file",
+          "searchable": true,
+          "sha256": "52d5366354305fe4ac38189e6c336aa2d879ef082ca434413c94e12f571490e3"
+        }
+      ]
+    },
+    "injection_document": {
+      "additional_documents": [
+        {
+          "doc_id": "b_001",
+          "path": "fixtures/user_b/apple.txt",
+          "owner_id": "user_b",
+          "uploaded_at": "2026-10-20",
+          "format": "txt",
+          "source_type": "file",
+          "searchable": true,
+          "sha256": "bc4164bbf4241b7751bae79088b0fbc72cad7a7111454b7025e1e88fffb6aa06"
+        },
+        {
+          "doc_id": "b_002",
+          "path": "fixtures/user_b/private_notes.md",
+          "owner_id": "user_b",
+          "uploaded_at": "2026-10-20",
+          "format": "md",
+          "source_type": "file",
+          "searchable": true,
+          "sha256": "52d5366354305fe4ac38189e6c336aa2d879ef082ca434413c94e12f571490e3"
+        }
+      ],
+      "document_overrides": {
+        "doc_049": {
+          "path": "fixtures/headscale_injection.md",
+          "sha256": "9e868424a8e451634162f3fd892435a9f0b0e47b4fa9da576b9b5f7bc38826ba"
+        }
+      }
+    },
+    "temporal_spread": {
+      "document_overrides": {
+        "doc_001": {
+          "uploaded_at": "2026-09-01"
+        },
+        "doc_002": {
+          "uploaded_at": "2026-09-02"
+        },
+        "doc_003": {
+          "uploaded_at": "2026-09-03"
+        },
+        "doc_004": {
+          "uploaded_at": "2026-09-04"
+        },
+        "doc_005": {
+          "uploaded_at": "2026-09-05"
+        },
+        "doc_006": {
+          "uploaded_at": "2026-09-06"
+        },
+        "doc_007": {
+          "uploaded_at": "2026-09-07"
+        },
+        "doc_008": {
+          "uploaded_at": "2026-09-08"
+        },
+        "doc_009": {
+          "uploaded_at": "2026-09-09"
+        },
+        "doc_010": {
+          "uploaded_at": "2026-09-10"
+        },
+        "doc_011": {
+          "uploaded_at": "2026-09-11"
+        },
+        "doc_012": {
+          "uploaded_at": "2026-09-12"
+        },
+        "doc_013": {
+          "uploaded_at": "2026-09-13"
+        },
+        "doc_014": {
+          "uploaded_at": "2026-09-14"
+        },
+        "doc_015": {
+          "uploaded_at": "2026-09-15"
+        },
+        "doc_016": {
+          "uploaded_at": "2026-09-16"
+        },
+        "doc_017": {
+          "uploaded_at": "2026-09-17"
+        },
+        "doc_018": {
+          "uploaded_at": "2026-09-18"
+        },
+        "doc_019": {
+          "uploaded_at": "2026-09-19"
+        },
+        "doc_020": {
+          "uploaded_at": "2026-09-20"
+        },
+        "doc_021": {
+          "uploaded_at": "2026-09-21"
+        },
+        "doc_022": {
+          "uploaded_at": "2026-09-22"
+        },
+        "doc_023": {
+          "uploaded_at": "2026-09-23"
+        },
+        "doc_024": {
+          "uploaded_at": "2026-09-24"
+        },
+        "doc_025": {
+          "uploaded_at": "2026-09-25"
+        },
+        "doc_026": {
+          "uploaded_at": "2026-09-26"
+        },
+        "doc_027": {
+          "uploaded_at": "2026-09-27"
+        },
+        "doc_028": {
+          "uploaded_at": "2026-09-28"
+        },
+        "doc_029": {
+          "uploaded_at": "2026-09-29"
+        },
+        "doc_030": {
+          "uploaded_at": "2026-09-30"
+        },
+        "doc_031": {
+          "uploaded_at": "2026-10-01"
+        },
+        "doc_032": {
+          "uploaded_at": "2026-10-02"
+        },
+        "doc_033": {
+          "uploaded_at": "2026-10-03"
+        },
+        "doc_034": {
+          "uploaded_at": "2026-10-04"
+        },
+        "doc_035": {
+          "uploaded_at": "2026-10-05"
+        },
+        "doc_036": {
+          "uploaded_at": "2026-10-06"
+        },
+        "doc_037": {
+          "uploaded_at": "2026-10-07"
+        },
+        "doc_038": {
+          "uploaded_at": "2026-10-08"
+        },
+        "doc_039": {
+          "uploaded_at": "2026-10-09"
+        },
+        "doc_040": {
+          "uploaded_at": "2026-10-10"
+        },
+        "doc_041": {
+          "uploaded_at": "2026-10-11"
+        },
+        "doc_042": {
+          "uploaded_at": "2026-10-12"
+        },
+        "doc_043": {
+          "uploaded_at": "2026-10-13"
+        },
+        "doc_044": {
+          "uploaded_at": "2026-10-14"
+        },
+        "doc_045": {
+          "uploaded_at": "2026-10-15"
+        },
+        "doc_046": {
+          "uploaded_at": "2026-10-16"
+        },
+        "doc_047": {
+          "uploaded_at": "2026-10-17"
+        },
+        "doc_048": {
+          "uploaded_at": "2026-10-18"
+        },
+        "doc_049": {
+          "uploaded_at": "2026-10-19"
+        },
+        "doc_050": {
+          "uploaded_at": "2026-10-20"
+        },
+        "doc_051": {
+          "uploaded_at": "2026-10-21"
+        },
+        "doc_052": {
+          "uploaded_at": "2026-10-22"
+        },
+        "doc_053": {
+          "uploaded_at": "2026-10-23"
+        },
+        "doc_054": {
+          "uploaded_at": "2026-10-24"
+        },
+        "doc_055": {
+          "uploaded_at": "2026-09-01"
+        },
+        "doc_056": {
+          "uploaded_at": "2026-09-02"
+        },
+        "doc_057": {
+          "uploaded_at": "2026-09-03"
+        },
+        "doc_058": {
+          "uploaded_at": "2026-09-04"
+        },
+        "doc_059": {
+          "uploaded_at": "2026-09-05"
+        },
+        "doc_060": {
+          "uploaded_at": "2026-09-06"
+        },
+        "doc_061": {
+          "uploaded_at": "2026-09-07"
+        },
+        "doc_062": {
+          "uploaded_at": "2026-09-08"
+        },
+        "doc_063": {
+          "uploaded_at": "2026-09-09"
+        },
+        "doc_064": {
+          "uploaded_at": "2026-09-10"
+        },
+        "doc_065": {
+          "uploaded_at": "2026-09-11"
+        },
+        "doc_066": {
+          "uploaded_at": "2026-09-12"
+        },
+        "doc_067": {
+          "uploaded_at": "2026-09-13"
+        },
+        "doc_068": {
+          "uploaded_at": "2026-09-14"
+        },
+        "doc_069": {
+          "uploaded_at": "2026-09-15"
+        },
+        "doc_070": {
+          "uploaded_at": "2026-09-16"
+        },
+        "doc_071": {
+          "uploaded_at": "2026-09-17"
+        },
+        "doc_072": {
+          "uploaded_at": "2026-09-18"
+        },
+        "doc_073": {
+          "uploaded_at": "2026-09-19"
+        },
+        "doc_074": {
+          "uploaded_at": "2026-09-20"
+        },
+        "doc_075": {
+          "uploaded_at": "2026-09-21"
+        },
+        "doc_076": {
+          "uploaded_at": "2026-09-22"
+        },
+        "doc_077": {
+          "uploaded_at": "2026-09-23"
+        },
+        "doc_078": {
+          "uploaded_at": "2026-09-24"
+        },
+        "doc_079": {
+          "uploaded_at": "2026-09-25"
+        },
+        "doc_080": {
+          "uploaded_at": "2026-09-26"
+        },
+        "doc_081": {
+          "uploaded_at": "2026-09-27"
+        },
+        "doc_088": {
+          "uploaded_at": "2026-10-04"
+        }
+      },
+      "provenance": "synthetic dates, not filesystem timestamps"
+    }
+  }
+}

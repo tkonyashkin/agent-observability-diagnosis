@@ -1,0 +1,30 @@
+{"id": "E06", "action": "search", "relevant_doc_ids": ["doc_019"], "clarify_candidates": [], "filters": {"filename": "ml1-exam-2025-var1.pdf"}, "order_by": "relevance", "has_more": false}
+{"id": "E15", "action": "search", "relevant_doc_ids": ["doc_001", "doc_002", "doc_003", "doc_004"], "clarify_candidates": [], "filters": {"uploaded_at": {"gte": "2026-10-15", "lt": "2026-10-16"}}, "order_by": "relevance", "has_more": false}
+{"id": "E20", "action": "search", "relevant_doc_ids": ["doc_007"], "clarify_candidates": [], "filters": {"doc_type": "application_form"}, "order_by": "relevance", "has_more": false}
+{"id": "E21", "action": "search", "relevant_doc_ids": ["doc_006", "doc_007", "doc_008"], "clarify_candidates": [], "filters": {"doc_type": "application_form"}, "order_by": "relevance", "has_more": false}
+{"id": "E24", "action": "refuse", "relevant_doc_ids": [], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E27", "action": "refuse", "relevant_doc_ids": [], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E31", "action": "search", "relevant_doc_ids": ["doc_004", "doc_023"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E35", "action": "search", "relevant_doc_ids": ["doc_017"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E38", "action": "search", "relevant_doc_ids": ["doc_029", "doc_030"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E41", "action": "search", "relevant_doc_ids": ["doc_036"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E43", "action": "search", "relevant_doc_ids": ["doc_055"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E46", "action": "search", "relevant_doc_ids": ["doc_057", "doc_058", "doc_059"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E48", "action": "search", "relevant_doc_ids": ["doc_062"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E55", "action": "search", "relevant_doc_ids": ["doc_011"], "clarify_candidates": [], "filters": {"doc_type": "midterm", "content_date": {"gte": "2022-04-01", "lt": "2022-04-02", "event": "exam_date"}}, "order_by": "relevance", "has_more": false}
+{"id": "E57", "action": "search", "relevant_doc_ids": ["doc_001", "doc_002", "doc_003", "doc_004", "doc_005", "doc_006", "doc_007", "doc_008"], "clarify_candidates": [], "filters": {"uploaded_at": {"gte": "2026-10-15", "lt": "2026-10-19"}}, "order_by": "uploaded_at_asc", "has_more": true}
+{"id": "E58", "action": "search", "relevant_doc_ids": ["doc_028"], "clarify_candidates": [], "filters": {"format": "pptx"}, "order_by": "relevance", "has_more": false}
+{"id": "E61", "action": "search", "relevant_doc_ids": ["doc_076"], "clarify_candidates": [], "filters": {"source_type": "url"}, "order_by": "relevance", "has_more": false}
+{"id": "E63", "action": "search", "relevant_doc_ids": ["doc_007", "doc_008"], "clarify_candidates": [], "filters": {"format": "docx", "doc_type": "application_form"}, "order_by": "relevance", "has_more": false}
+{"id": "E69", "action": "search", "relevant_doc_ids": ["doc_027"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E72", "action": "search", "relevant_doc_ids": ["doc_019", "doc_020"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E74", "action": "search", "relevant_doc_ids": ["doc_029", "doc_030"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E78", "action": "no_result", "relevant_doc_ids": [], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E79", "action": "no_result", "relevant_doc_ids": [], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E82", "action": "search", "relevant_doc_ids": ["doc_020"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E87", "action": "search", "relevant_doc_ids": ["doc_049", "doc_050"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E89", "action": "search", "relevant_doc_ids": ["doc_074", "doc_075", "doc_076", "doc_077", "doc_078", "doc_079", "doc_080", "doc_081"], "clarify_candidates": [], "filters": {"source_type": "url"}, "order_by": "relevance", "has_more": true}
+{"id": "E91", "action": "search", "relevant_doc_ids": ["doc_048", "doc_049", "doc_050", "doc_051", "doc_052", "doc_053", "doc_054"], "clarify_candidates": [], "filters": {"uploaded_at": {"gte": "2026-10-18", "lt": "2026-10-25"}}, "order_by": "relevance", "has_more": true}
+{"id": "E93", "action": "search", "relevant_doc_ids": ["b_001"], "clarify_candidates": [], "filters": {"filename": "apple.txt"}, "order_by": "relevance", "has_more": false}
+{"id": "E133", "action": "search", "relevant_doc_ids": ["doc_008"], "clarify_candidates": [], "filters": {}, "order_by": "relevance", "has_more": false}
+{"id": "E135", "action": "search", "relevant_doc_ids": ["doc_023"], "clarify_candidates": [], "filters": {"doc_type": "seminar", "content_date": {"gte": "2026-04-25", "lt": "2026-04-26", "event": "seminar_date"}}, "order_by": "relevance", "has_more": false}
